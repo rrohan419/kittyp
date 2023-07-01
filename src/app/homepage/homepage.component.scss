@@ -1,0 +1,29 @@
+.hero {
+    background-color: #6c757d; /* Gray */
+  }
+
+  .hero h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .hero p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .hero .btn {
+    background-color: #17a2b8; /* Teal */
+    border-color: #138496;
+    font-size: 20px;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+  }
+
+  .hero .btn:hover {
+    background-color: #138496;
+    border-color: #0d6c7c;
+  }
