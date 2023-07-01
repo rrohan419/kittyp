@@ -1,5 +1,5 @@
 .hero {
-    background-color: #6c757d; /* Gray */
+    background-color: #070707; /* Gray */
   }
 
   .hero h1 {
@@ -26,4 +26,56 @@
   .hero .btn:hover {
     background-color: #138496;
     border-color: #0d6c7c;
+  }
+  .text-box{
+    border: 1px solid #070707;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 30px;
+    margin: 50px;
+    width:  20rem;
+    height: 30rem;
+  }
+
+  .text-box-1{
+    background-color: rgb(146, 79, 24);
+  }
+
+  .text-box-2{
+    background-color: rgb(85, 99, 17);
+  }
+
+  .text-box-3{
+    background-color: rgb(145, 133, 8);
+  }
+
+  .text-box-4{
+    background-color: rgb(21, 99, 17);
+  }
+
+  .text-box-5{
+    background-color: rgb(112, 29, 29);
+  }
+
+  .text-box-6{
+    background-color: rgb(17, 54, 99);
+  }
+
+  .header-container{
+    background-image: url("../../assets/cat3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52rem;
+    background-position: center;
+  }
+
+  .text-box-head{
+    margin-top: 100px;
+  }
+
+  .box-image{
+   height: 100px; 
   }

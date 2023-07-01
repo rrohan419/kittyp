@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,12 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   
+  contactsComponent : ContactsComponent = new ContactsComponent();
   hideFooter: boolean = false;
 
-  constructor(private router: Router){}
+  constructor(private router: Router){
+    console.log(this.contactsComponent.linkedInLink)
+  }
 
   ngOnInit() {
     this.router.events.subscribe(event => {
