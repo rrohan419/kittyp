@@ -36,5 +36,10 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.6.2"
-  }
+  },
+  "overrides": {
+    "css-select": "^4.2.1",
+    "css-what": "^5.1.0",
+    "domhandler": "^4.3.1"
+}
 }
