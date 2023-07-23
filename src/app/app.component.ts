@@ -8,6 +8,7 @@ import { ContactsComponent } from './contacts/contacts.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  title:string = 'myStore'
   
   contactsComponent : ContactsComponent = new ContactsComponent();
   hideFooter: boolean = false;

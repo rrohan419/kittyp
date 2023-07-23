@@ -1,3 +1,7 @@
+.routing-div{
+  background-image: url('../assets/flower-g328b2ba80_1920.jpg');
+  background-size: cover;
+}
 .header{
     background-color: #79f9b1f3;
 }
@@ -64,4 +68,8 @@
   .footer-text{
     color: black;
     font-weight: 600;
+  }
+
+  .footer{
+    border-top: 2px solid black;
   }
