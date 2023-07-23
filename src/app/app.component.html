@@ -19,7 +19,7 @@
             </div>
           </nav>
     </div>
-    <div class="routing-div">
+    <div class="routing-div" [ngClass] = "{ 'no-background': isContactPage() }">
       
         <router-outlet></router-outlet>
     </div>
