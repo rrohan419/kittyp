@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "90e7d211-0cec-4055-a832-e61daa446735"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -52,6 +55,20 @@
                   "maximumError": "4kb"
                 }
               ],
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                     "minify": true,
+                     "inlineCritical": false
+                     },
+                "fonts": true
+            },
+            "sourceMap": false,
+            "namedChunks": false,
+            "aot": true,
+            "extractLicenses": true,
+            "vendorChunk": false,
+            "buildOptimizer": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
